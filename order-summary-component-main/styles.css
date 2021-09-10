@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+:root {
+  /* primary */
+  --Pale-blue: hsl(225, 100%, 94%);
+  --Bright-blue: hsl(245, 75%, 52%);
+  /* Neutral */
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Desaturated-blue: hsl(224, 23%, 55%);
+  --Dark-blue: hsl(223, 47%, 23%);
+}
+
+html, body {
+  font: 16px 'Red Hat Display', sans-serif;
+  background-image: url('images/pattern-background-desktop.svg');
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.card {
+  width: 25rem;
+  justify-content: center;
+  margin: 2rem auto;
+  float: none;
+}
+
+.card-body {
+  padding: 2rem;
+  text-align: center;
+}
+
+.card-text {
+  color: var(--Desaturated-blue);
+}
+
+.col {
+  margin: auto;
+}
+
+.btn {
+  background-color: var(--Bright-blue);
+  color: white;
+  width: 20rem;
+  margin: 1rem 0;
+}
+
+.card .inner {
+  width: 20rem;
+  background-color: var(--Very-pale-blue);
+}
+
+.inner-title {
+  font-size: 1rem;
+}
+
+.music-icon {
+  width: 3rem;
+  display: inline-block;
+}
+
+.pricing {
+  display: inline-block;
+}
+
+#inner-card {
+  width: 20rem;
+  border: none;
+  padding: 1rem;
+}
+
+#card-image {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+#outer-card {
+  border-radius: 1rem;
+}
+
+#cancel {
+  text-decoration: none;
+  color: var(--Desaturated-blue);
+}
